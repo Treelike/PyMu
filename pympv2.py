@@ -17,7 +17,7 @@ def pymp(dir='/yourmusicfolder'):
             for rp in rc[ri]:
                 print '\n Playing Now ...\n{0}:{1}'.format(dbn,db[dbn])
                 print '{r:>10}:{l}'.format(r='Repeat',l=rp)
-                play=os.system('andplay {0}'.format(db[dbn]))
+                play=os.system('andplay "{0}"'.format(db[dbn]))
             pc.append(play)     
     print '\nPyMp Stop!'
     if len(pc)<=1:
