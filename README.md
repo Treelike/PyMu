@@ -1,1 +1,1 @@
-# PyMu Python music player built on top of andPlay
+# PyMu Python music player using command-line utility which plays mp3 files.
